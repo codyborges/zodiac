@@ -23,7 +23,11 @@ function horoscope(){
     answer.innerHTML = "Attempts to master a new computer program or other form of high-tech equipment could seem to be going nowhere, Virgo. You might tend to doubt your ability and thus feel very frustrated. However, keep at it. You aren't beyond all help! Nothing more than a little focus, concentration, and dogged persistence is required. It might also pay to ask someone's help who knows more about it."
   }else if (month.value == 09 && day.value > 23 && day.value <= 30 || month.value == 10 && day.value > 1 && day.value <= 22){
     answer.innerHTML = "The rapid level of growth that you've probably been experiencing could suddenly prove too much for you today, Libra. You might need to take a little breather to grasp what's happening in your life. New friends, new knowledge, and new opportunities have appeared in profusion, but you could still be feeling a bit down, wondering if you can handle it all. Don't fight these feelings; work through them instead. You'll be better off for it."
-  }else if 
+  }else if (month.value == 10 && day.value > 23 && day.value <= 31 || month.value == 11 && day.value > 1 &&  day.value <= 21){
+    answer.innerHTML ="The energy that has propelled you forward for the past several weeks might seem to lag a bit today, causing you momentary panic that your progress won't continue. As a result, you could be feeling a bit blue. Don't fall into this trap, Scorpio. The pace has been so fast that it had to slow down sometime. It will pick up again, and you'll have had time to catch your breath. Hang in there!"
+  }else if (month.value == 11 && day.value > 22 && day.value <= 30 || month.value == 12 && day.value >1 && day.value <= 21){
+    answer.innerHTML = "Today you might experience a slight (and very temporary) dark night of the soul, Sagittarius. You could take a long look at your life and, even though you're doing well, still feel that you aren't yet where you want to be. Spiritually, you might doubt the traditional views you've questioned and still wonder about new concepts you've adopted. Try to distract yourself through reading or perhaps a movie. This feeling will pass by tomorrow."
+  }
 
 
 
