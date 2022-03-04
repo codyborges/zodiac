@@ -13,7 +13,7 @@ body{
 h1{
   font-size: 60px;
   text-align: center;
-  margin: 7% 0;
+  margin: 6% 0;
 }
 
 .info{
@@ -31,4 +31,9 @@ justify-content: center;
 }
 .sub{
   margin: 3% 0;
+}
+
+.answer{
+margin: 3% 0;
+
 }

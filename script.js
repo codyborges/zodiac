@@ -43,7 +43,7 @@ function horoscope(){
   }else if (parseInt(month.value) == 01 && parseInt(day.value) > 20 && parseInt(day.value) <= 31 || parseInt(month.value) == 02 && parseInt(day.value) > 1 && parseInt(day.value) <= 18){
     sign.innerHTML = "Aquarius"
     answer.innerHTML = "Plans for getting together with friends or a romantic partner might have to be postponed because of professional responsibilities that need attention. This could prove upsetting, Aquarius, especially since you have to disappoint others, but these things happen. Don't let it get to you. This will have no lasting effect on any of your relationships. Work hard, get it done, and schedule time for some fun a bit later."
-  }else (parseInt(month.value) == 02 && parseInt(day.value) > 19 && parseInt(day.value) <= 28 || parseInt(month.value) == 03 && parseInt(day.value) >1 && parseInt(day.value) <= 20){
+  }else if(parseInt(month.value) == 02 && parseInt(day.value) > 19 && parseInt(day.value) <= 28 || parseInt(month.value) == 03 && parseInt(day.value) >1 && parseInt(day.value) <= 20){
     sign.innerHTML = "Pisces"
     answer.innerHTML = "Your health has been glowing over the past few weeks, Pisces, but today you're likely to feel a little under the weather. This is probably due to nothing more exotic than stress. You've been working hard and concentrating on little else, so your body is now rebelling. You need some rest. Take time off and relax a little, and don't feel guilty about it. Even the President needs alone time occasionally."
   }
