@@ -27,14 +27,22 @@ justify-content: center;
 
 .results{
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 .sub{
   margin: 3% 0;
+  width: 20%;
+
+
+}
+
+.sign{
+  margin: 2% 0;
 }
 
 .answer{
 margin: 3% 0;
 
 }
+
